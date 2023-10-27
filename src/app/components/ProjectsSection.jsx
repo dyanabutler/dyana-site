@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Pending",
-    description: "Pending Description",
+    description: "Art Gallery",
     image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
