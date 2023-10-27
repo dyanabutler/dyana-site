@@ -28,7 +28,7 @@ const HeroSection = () => {
                 1000,
                 "Figma Enthusiast",
                 1000,
-                "Web Dev (kinda)",
+                "Web Dev",
                 1000,
               ]}
               wrapper="span"
