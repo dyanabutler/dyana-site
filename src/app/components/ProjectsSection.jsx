@@ -8,8 +8,8 @@ const projectsData = [
   {
     id: 1,
     title: "Three.Js Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    description: "Pending",
+    image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Pending",
-    description: "Project 3 description",
+    description: "After Effects Projects",
     image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Pending",
-    description: "Pending description",
+    description: "Figma Files",
     image: "/images/projects/.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
