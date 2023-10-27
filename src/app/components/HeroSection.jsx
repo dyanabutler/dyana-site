@@ -26,7 +26,7 @@ const HeroSection = () => {
                 1000,
                 "UI/UX Designer",
                 1000,
-                "Figma Enthusiast",
+                "Video Editor",
                 1000,
                 "Web Dev",
                 1000,
@@ -37,14 +37,14 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          a Boston-based gal passionate about design in tech, I empower others to evolve in their careers. Join my newsletter for insights, including my experience with the Google IT Support Professional Certificate.
+          a Boston-based gal with a passion for crafting user-centric websites that tell a story. I bring a unique blend of technical and aesthetic sensibility to every project I tackle. 
           </p>
           <div>
             <Link
               href="#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              Hire Me
+              Let&apos;s Chat!
             </Link>
             <Link
               href="/"
