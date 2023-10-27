@@ -7,8 +7,8 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Three.Js Portfolio Website",
-    description: "Pending",
+    title: "Pending",
+    description: "Three.JS Portfolio Website",
     image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Pending",
-    description: "Authentication and CRUD operations",
+    description: "3D ASMR Website",
     image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -53,7 +53,7 @@ const projectsData = [
   {
     id: 6,
     title: "Pending",
-    description: "Project 5 description",
+    description: "Pending Description",
     image: "/images/projects/.png",
     tag: ["All", "Web"],
     gitUrl: "/",
