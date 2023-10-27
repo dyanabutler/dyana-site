@@ -13,7 +13,7 @@ const TAB_DATA = [
         <li>Adobe Suite</li>
         <li>Three.js</li>
         <li>CSS & Tailwind</li>
-        <li>JavaScript</li>
+        <li>Procreate</li>
         <li>Next.js 13</li>
       </ul>
     ),
