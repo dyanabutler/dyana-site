@@ -15,10 +15,12 @@ const CalendlyButton = () => {
 
   return (
     <button onClick={() => Calendly.initPopupWidget({ url: 'https://calendly.com/dyanabutler' })}
-    className={`bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full`}>
-      Schedule time with me
+    className={`block bg-[#00B8A8] hover:bg-[#299E94] rounded-full px-5 py-2 w-full`}>
+      Schedule Time With Me
     </button>
   );
 };
 
 export default CalendlyButton;
+
+
