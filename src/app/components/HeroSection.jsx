@@ -6,6 +6,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
+
+  const downloadCv = () => {
+    const link = document.createElement("a");
+    link.href = "/ButlerDyana_resume.pdf";
+    link.download = "ButlerDyana_resume.pdf";
+    link.click();
+  }
+
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -22,8 +31,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Dyana",
-                1000,
+              
                 "UI/UX Designer",
                 1000,
                 "Video Editor",
@@ -50,9 +58,9 @@ const HeroSection = () => {
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <button className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2" onClick={downloadCv}>
                 Download CV
-              </span>
+              </button>
             </Link>
           </div>
         </motion.div>
