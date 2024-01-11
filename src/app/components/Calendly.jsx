@@ -16,7 +16,7 @@ const CalendlyButton = () => {
   return (
     <button onClick={() => Calendly.initPopupWidget({ url: 'https://calendly.com/dyanabutler' })}
     className={`block bg-[#00B8A8] hover:bg-[#299E94] rounded-full px-5 py-2 w-full`}>
-      Schedule Time With Me
+      Schedule a Zoom Call With Me
     </button>
   );
 };

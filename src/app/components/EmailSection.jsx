@@ -5,6 +5,7 @@ import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import Calendly from "./Calendly";
+import CalendlyButton from "./Calendly";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -130,7 +131,7 @@ const EmailSection = () => {
           
         )}
 
-<Calendly />
+<CalendlyButton />
       </div>
     </section>
   );
