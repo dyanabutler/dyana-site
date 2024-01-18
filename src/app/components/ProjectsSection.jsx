@@ -7,37 +7,37 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Pending",
-    description: "Three.JS Portfolio Website",
+    title: "Figma Designs",
+    description: "My contributions to the Figma communituy",
     image: "/images/projects/.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Design"],
+    gitUrl: "https://www.figma.com/@dyanabutler/",
+    previewUrl: "https://www.figma.com/@dyanabutler/",
   },
   {
     id: 2,
     title: "My First Parallax Project",
     description: "A simple parallax scrolling effect to get started",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Development"],
     gitUrl: "https://github.com/dyanabutler/my-first-parallax",
     previewUrl: "https://dyanabutler.github.io/my-first-parallax/",
   },
   {
     id: 3,
-    title: "Pending",
-    description: "After Effects Projects",
+    title: "Artstation",
+    description: "My Digital Art Portfolio",
     image: "/images/projects/.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Design"],
+    gitUrl: "https://www.artstation.com/dyanabutler/",
+    previewUrl: "https://www.artstation.com/dyanabutler/",
   },
   {
     id: 4,
     title: "Pending",
     description: "Figma Files",
     image: "/images/projects/.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Design"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -92,13 +92,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Design"
+          isSelected={tag === "Design"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Development"
+          isSelected={tag === "Development"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
