@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import axios from 'axios';
-
+import Link from 'next/link';
 import {AiFillCheckCircle} from 'react-icons/ai'
 
 const PricingCard = ({price}) => {
