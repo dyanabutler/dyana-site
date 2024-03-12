@@ -5,7 +5,8 @@ import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
-import Pricing from "./components/Pricing";
+import FigmaEmbed from "./components/FigmaEmbed";
+
 
 
 
@@ -23,9 +24,10 @@ export default function Home() {
         
         
         <AboutSection />
+        <FigmaEmbed />
         <ProjectsSection />
         <EmailSection />
-        <Pricing />
+ 
 
        
 

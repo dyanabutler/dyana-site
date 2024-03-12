@@ -57,7 +57,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am Dyana—a dedicated designer and web engineer with a diverse skill set. My favorite part about my shift from the retail industry to the tech field is the increased emphasis on teamwork and its significance to individuals. As a freelancer, my project selection criteria primarily hinge on the level of sheer excitement and enthusiasm they evoke in me, often causing literal goosebumps and hair-raising moments.
+          I am Dyana—a dedicated designer and web engineer with a diverse skill set.  As a freelancer, my project selection criteria primarily hinge on the level of sheer excitement and enthusiasm they evoke in me, often causing literal goosebumps and hair-raising moments.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
